@@ -9,6 +9,7 @@ import { Hero, HeroService }  from './hero.service';
 @Component({
   template: `
   <h2>HEROES</h2>
+  Go To Crisis Center==>   <a routerLink="/crisis-center" routerLinkActive="active">Crisis Center</a><==
   <div *ngIf="hero">
     <h3>"{{ hero.name }}"</h3>
     <div>

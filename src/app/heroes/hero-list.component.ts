@@ -8,6 +8,7 @@ import { Hero, HeroService }  from './hero.service';
 
 @Component({
   template: `
+     Go To Crisis Center==>   <a routerLink="/crisis-center" routerLinkActive="active">Crisis Center</a><==
     <h2>HEROES</h2>
     <ul class="items">
       <li *ngFor="let hero of heroes | async"
